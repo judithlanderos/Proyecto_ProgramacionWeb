@@ -73,6 +73,9 @@ if (!$_SESSION['valida']) {
                     <li class="nav-item"><a class="nav-link" href="bajas.php">Bajas</a></li>
                     <li class="nav-item"><a class="nav-link" href="cambios.php">Cambios</a></li>
                     <li class="nav-item"><a class="nav-link" href="consultas.php">Consultas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="view_listado_alumnos.php">Vistas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historial_cambios.php">Historial de Cambios-Trigger</a></li>
+                    <li class="nav-item"><a class="nav-link" href="procedimiento_funcion.php">Procedimiento y Funcion</a></li>
                 </ul>
                 <form class="d-flex" action="../controllers/cerrar_sesion.php" method="POST">
                     <button class="btn btn-warning" type="submit">Cerrar Sesión</button>
