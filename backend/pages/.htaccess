@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /Semestre_Ago_Dic_2024/Proyecto/plantilla_html_css/backend/pages/
+
+# Redirigir la URL amigable 'login' a 'login.php'
+RewriteRule ^login$ login.php [QSA,L]
